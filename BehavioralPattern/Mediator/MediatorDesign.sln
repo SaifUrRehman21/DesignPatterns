@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.34301.259
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDesign.API", "MediatorDesign.API\MediatorDesign.API.csproj", "{ACBDB3EF-8592-4297-8ACF-BF42043301F9}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDesign.Domain", "MediatorDesign.Domain\MediatorDesign.Domain.csproj", "{6624DCEE-86D2-4B41-9786-4497DC6EC1EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorDesign.Infrastructure", "MediatorDesign.Infrastructure\MediatorDesign.Infrastructure.csproj", "{4C49BD61-4A0D-4120-9B4D-BDB7830AD3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E76C2920-EEDE-4923-AAB9-0F968A5BB735}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACBDB3EF-8592-4297-8ACF-BF42043301F9} = {E76C2920-EEDE-4923-AAB9-0F968A5BB735}
+		{F611C5D5-ABB2-4342-99B7-3837812FF838} = {E76C2920-EEDE-4923-AAB9-0F968A5BB735}
+		{6624DCEE-86D2-4B41-9786-4497DC6EC1EC} = {E76C2920-EEDE-4923-AAB9-0F968A5BB735}
+		{4C49BD61-4A0D-4120-9B4D-BDB7830AD3A5} = {E76C2920-EEDE-4923-AAB9-0F968A5BB735}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0498E79D-B8F5-44A3-88E3-C209467ECD9F}
