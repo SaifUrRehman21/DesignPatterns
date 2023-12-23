@@ -1,0 +1,10 @@
+﻿global using global::MediatorDesign.Domain;
+global using global::MediatorDesign.Domain.Model.Entity;
+global using global::MediatorDesign.Domain.LogManagement;
+global using global::MediatorDesign.Application.DependencyResolver;
+global using global::MediatorDesign.Application.Commands;
+global using global::MediatorDesign.Infrastructure.DependencyResolver;
+global using global::MediatorDesign.API.Helpers;
+global using global::MediatorDesign.API.Helpers.Middleware;
+global using global::MediatorDesign.API.Model.Request;
+global using global::MediatorDesign.API.Model.Response;

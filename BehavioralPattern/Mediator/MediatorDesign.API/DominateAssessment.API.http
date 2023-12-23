@@ -1,0 +1,6 @@
+@DominateAssessment.API_HostAddress = http://localhost:5217
+
+GET {{DominateAssessment.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
